@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    background-image: url("https://wallup.net/wp-content/uploads/2016/01/263693-nature-landscape-wildflowers-trees-calm-river-water-overcast-clouds.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.odsadenie {
+    padding: 10px;
+    display: flex;
+}
+
+.odsadenie > ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+
+    justify-content: space-around;
+    align-items: center;
+    transition: 200ms;
+
+}
+
+.odsadenie > ul > li:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 200ms;
+}
+
+.odsadenie > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.odsadenie > ul > li > a:hover{
+    color: lightblue;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100px;
+
+    position: sticky;
+    top: 0;
+}
+
+header {
+    background-color: blue;
+    height: 500px;
+}
+
+section {
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: antiquewhite;
+}
+
+footer {
+
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+
+.flex-outer {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+
+    max-width: 600px;
+    outline: 4px solid red;
+    height: 600px;
+    margin: 0 auto;
+
+    flex-direction: column;
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+.flex-element {
+    height: 50px;
+    width: 50px;
+    background-color: greenyellow;
+
+}
+
+.flex-outer2 {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 24px !important;
+
+    max-width: 600px;
+    outline: 4px solid red;
+    height: 600px;
+    margin: 0 auto;
+
+    flex-direction: row;
+    justify-content: space-around;
+
+    align-items: flex-start;
+}
+
+.flex-outer3 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 24px !important;
+    border: 10px solid red;
+    box-sizing: border-box;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-outer4 {
+    width: 100%;
+    height: 200px;
+    margin-top: 24px !important;
+    border: 10px solid red;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex-element2 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    flex: 1;
+}
+
+.flex-element3 {
+    height: 100%;
+    width: 100%;
+    background-color: purple;
+    flex: 2;
+}
+
+footer>h1 {
+    color: white;
+    font-size: 48px;
+    width: 100%;
+    text-align: center;
+}
+
+.sekcia-formular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    widows: 100%;border: 5px solid red;
+    margin-top: 24px;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+}
